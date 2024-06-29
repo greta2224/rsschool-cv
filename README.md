@@ -1,1 +1,1 @@
-https://github.com/greta2224/rsschool-cv/blob/gh-pages/cv.md
+https://greta2224.github.io/rsschool-cv/cv
