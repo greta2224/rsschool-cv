@@ -1,0 +1,1 @@
+https://github.com/greta2224/rsschool-cv/blob/gh-pages/cv.md
