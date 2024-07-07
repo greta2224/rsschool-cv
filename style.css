@@ -5,7 +5,6 @@ body {
 }
 header{
     height: 60px;
-    margin: auto;
     background-color: rgb(61, 66, 71);
 }
 main{
@@ -13,6 +12,9 @@ main{
 }
 a, h1, h2, p{
     font-family: "Manrope", sans-serif;
+}
+.navigation{
+    text-align: center;
 }
 .navlink {
     display: inline-block;
@@ -22,9 +24,13 @@ a, h1, h2, p{
     padding: 10px;
 }
 .bio{
-    height: 100px;
     text-align: center;
     padding-top: 50px;
+}
+.bio-text{
+    margin-top: 0;
+    font-size: 14pt;
+    line-height: 150%;
 }
 .avatar{
     border-radius: 50%;
@@ -35,4 +41,7 @@ a, h1, h2, p{
 }
 .name{
     display: inline-block;
+}
+.info{
+    height: 1000px;
 }
