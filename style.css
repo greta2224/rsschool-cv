@@ -1,0 +1,66 @@
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+header{
+    height: 60px;
+    background-color: rgb(61, 66, 71);
+}
+main{
+    background-color: aliceblue;
+}
+a, h1, h2, p{
+    font-family: "Manrope", sans-serif;
+}
+.navigation{
+    text-align: center;
+}
+.navlink {
+    display: inline-block;
+    color: aliceblue;
+    text-decoration: none;
+    font-size: 20pt;
+    padding: 10px;
+}
+.bio{
+    text-align: center;
+    padding-top: 50px;
+}
+.bio-text{
+    margin-top: 0;
+    font-size: 14pt;
+    line-height: 150%;
+}
+.avatar{
+    border-radius: 50%;
+    max-width: 206px;
+    max-height: 206px;
+    display: block;
+    margin: 0px auto;
+}
+.name{
+    display: inline-block;
+}
+.info{
+    background-color: rgb(61, 66, 71);
+    color: aliceblue;
+}
+.skills{
+    margin-left: 30%;
+    padding: 20px 0;
+}
+ul {
+    list-style-type: none;
+  }
+  footer{
+    background-color: aliceblue;
+    text-align: center;
+  }
+  .logo{
+    display: inline-block;
+  }
+.linkimg{
+    max-width: 50px;
+    max-height: 50px;
+}
