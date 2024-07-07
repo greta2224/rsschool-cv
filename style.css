@@ -53,3 +53,14 @@ a, h1, h2, p{
 ul {
     list-style-type: none;
   }
+  footer{
+    background-color: aliceblue;
+    text-align: center;
+  }
+  .logo{
+    display: inline-block;
+  }
+.linkimg{
+    max-width: 50px;
+    max-height: 50px;
+}
