@@ -1,18 +1,38 @@
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
 header{
-    width: 1000px;
     height: 60px;
     margin: auto;
     background-color: rgb(61, 66, 71);
 }
-.navigation{
-    margin: auto;
-    text-align: center;
+main{
+    background-color: aliceblue;
+}
+a, h1, h2, p{
+    font-family: "Manrope", sans-serif;
 }
 .navlink {
     display: inline-block;
     color: aliceblue;
     text-decoration: none;
     font-size: 20pt;
-    font-family: "Manrope", sans-serif;
     padding: 10px;
+}
+.bio{
+    height: 100px;
+    text-align: center;
+    padding-top: 50px;
+}
+.avatar{
+    border-radius: 50%;
+    max-width: 206px;
+    max-height: 206px;
+    display: block;
+    margin: 0px auto;
+}
+.name{
+    display: inline-block;
 }
